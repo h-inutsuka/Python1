@@ -1,0 +1,5 @@
+weight = float(input('体重入力>>'))
+stature = float(input('身長(cm)>>'))
+statureM = (stature/100)
+BMI = (weight / statureM / statureM)
+print(f"BMI={BMI}")

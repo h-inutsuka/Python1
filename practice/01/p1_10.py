@@ -1,0 +1,6 @@
+moji = input('文字の入力>>')
+sei = input('整数の入力>>')
+syou = input('少数の入力>>')
+print('入力された文字 = ' + moji)
+print('入力された整数 = ' + sei)
+print('入力された少数 = ' + syou)

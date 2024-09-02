@@ -1,0 +1,91 @@
+/* 全体の設定 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* ヘッダー部分 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header #logo-wrap a img {
+    max-width: 200px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* メインコンテンツ部分 */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1, main h2, main h3, main h4, main h5 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+main p, main li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+main a {
+    color: #ff7e0a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+main a:hover {
+    color: #333;
+}
+
+/* フッター部分 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer small {
+    font-size: 14px;
+}
